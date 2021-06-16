@@ -1,0 +1,620 @@
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+    height: 100%;
+    /* position: sticky; */
+}
+
+
+.navbar::before{
+    content: "";
+    background: url("./assets/d-1.jpg") no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0px;
+    left: 0px;
+    /* opacity: 0.7; */
+    z-index:-1;
+    
+}
+
+
+#img{
+    width: 43px;
+    height: 50px;
+    margin: 10px 18px;
+}
+
+
+
+
+.ul_li{
+    display: flex;
+    /* border: 2px solid black; */
+    
+}
+
+.ul_li li{
+    list-style: none;
+}
+
+.ul_li li a{
+    text-decoration: none;
+    margin: auto 25px;
+    color: black;
+    padding: 6px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.ul_li li a:hover{
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.contact{
+    width: 20%;
+    margin-top: 15px;
+    
+}
+
+#contact-1{
+    padding: 6px 20px;
+    font-size: 1rem;
+     color: white;
+    background-color: rgb(10, 143, 196);
+    border-color: blue;
+    border-radius: 9px;
+    cursor: pointer;
+
+}
+
+#services{
+    position: absolute;
+    top: 800px;
+    /* border: 2px solid red; */
+    width: 1500px;
+
+}
+
+/* #services{
+    position: absolute;
+    top: 800px;
+
+} */
+
+
+.heading h1{
+    text-align: center;
+    justify-content: center;
+    font-size: 1.7rem;
+}
+
+.line{
+    background-color: rgb(10, 143, 196);
+    height: 5px ;
+    width: 110px;
+    margin: auto;
+    
+
+}
+
+.head-cont{
+    margin: 34px;
+    display: flex;
+    
+}
+
+.head-cont .container{
+    /* border: 2px solid brown; */
+    width: 300px;
+    padding: 20px 20px;
+    margin: auto ;
+    border-radius: 20px;
+    box-shadow: 8px 8px 30px rgb(197, 222, 233);
+}
+
+
+.head-cont .container img{
+    height: 80px;
+    width: 80px;
+    margin-left: 100px;
+    background-color: rgb(72, 84, 245);
+    border-radius: 51px;
+    box-shadow: 8px 8px 20px rgb(185, 220, 235);
+    
+}
+
+.container h3{
+    text-align: center;
+    
+}
+
+.container a{
+    color: rgb(44, 62, 224);
+    margin-left: 85px;
+   
+    
+}
+
+
+
+
+#dr-brief{
+    position: absolute;
+    top: 1500px;
+    width: 1500px;
+    height: 650px;
+    background-color: rgb(241, 209, 209);
+    /* left: 500px; */
+}
+
+
+#dr-brief .all{
+    display: flex;
+}
+
+
+ #dr-brief .outer{
+    position: relative;
+    background-color: rgb(183, 243, 243);
+    left: 450px;
+   height:650px;
+    width: 936px;
+   
+} 
+
+
+#dr-brief .inner{
+    position: absolute;
+    left: 250px;
+    top: 60px;
+}
+
+
+#dr-brief .inner img{
+    height: 550px;
+    width: 400px;
+    border-radius: 20px;
+    
+}
+
+.o-1{
+    position: relative;
+    top: 70px;
+    width: 600px;
+    margin: auto;
+    right: -90px;
+    padding: 5px 7px;
+   
+}
+
+.h-ternary{
+    font-size: 1.2rem;
+    
+}
+
+.h-ternary p{
+    top : 60px;
+}
+
+.half{
+    background-color: skyblue;
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+
+.portfolio{
+    position: absolute;
+    top: 2200px;
+    width: 1500px;
+   
+   
+}
+
+
+.portfolio-1 {
+    /* border: 2px solid red; */
+    width: 500px;
+    margin: auto;
+   
+}
+
+
+
+
+.portfolio-1 h1{
+    font-size: 2rem;
+}
+
+
+.navbar-1{
+    display: flex;
+
+}
+
+.p-1{
+    background-color: rgb(74, 14, 214);
+    width: 100px;
+    height: 3px;
+}
+
+.p-2{
+    display: flex;
+    list-style: none;
+}
+
+.p-2 a{
+   text-decoration: none;
+   margin: auto 25px;
+   color:rgb(105, 103, 238);
+   padding: 6px 20px;
+   font-size: 1.5rem;
+   cursor: pointer;
+}
+
+
+.p-2 a:hover{
+    border-radius: 20px;
+    color: rgb(124, 17, 224);
+    background-color: white;
+    border: 2px solid rgb(197, 222, 233)
+ }
+
+
+ .big-1{
+     /* border: 2px solid brown; */
+     display: flex;
+     margin: auto;
+     width: 1100px;
+ }
+
+
+ .big-sm-1{
+     display: flex;
+     flex-direction: column;
+     margin: 12px 13px;
+ }
+
+ .big-sm-1 .pic-1{
+    width: 300px;
+    height: 350px;
+    margin: 29px 30px;
+    /* padding: 36px 30px; */
+    /* border: 2px solid red; */
+    border-radius: 15px;
+}
+
+
+
+
+.big-sm-1 .pic-2{
+    width: 300px;
+    height: 300px;
+    margin: 29px 30px;
+    border-radius: 15px;
+}
+
+
+
+
+
+.big-sm-1 .pic-3{
+    width: 300px;
+    height: 400px;
+    margin: 29px 30px;
+    border-radius: 15px;
+}
+
+
+
+
+
+.big-sm-2{
+    display: flex;
+    flex-direction: column;
+    margin: 12px 13px;
+}
+
+
+
+.big-sm-2 .pic-4{
+    width: 300px;
+    height: 300px;
+    margin: 29px 30px;
+    border-radius: 15px;
+}
+
+.big-sm-2 .pic-5{
+    width: 300px;
+    height: 445px;
+    margin: 29px 30px;
+    border-radius: 15px;
+}
+
+.big-sm-2 .pic-6{
+    width: 300px;
+    height: 300px;
+    margin: 29px 30px;
+    border-radius: 15px;
+}
+
+
+
+.big-sm-3{
+    display: flex;
+    flex-direction: column;
+    margin: 12px 13px;
+}
+
+
+
+
+.big-sm-3 .pic-7{
+    width: 300px;
+    height: 400px;
+    margin: 29px 30px;
+    border-radius: 15px;
+}
+
+.big-sm-3 .pic-8{
+    width: 300px;
+    height: 342px;
+    margin: 29px 30px;
+    border-radius: 15px;
+}
+
+.big-sm-3 .pic-9{
+    width: 300px;
+    height: 300px;
+    margin: 29px 30px;
+    border-radius: 15px;
+}
+
+
+
+.my-resume{
+    position: absolute;
+    top: 3600px;
+    width: 1500px;
+}
+   
+.my-resume-1 {
+    /* border: 2px solid red; */
+    width: 500px;
+    margin: auto;
+   
+}
+
+
+
+
+.my-resume-1 h1{
+    font-size: 2rem;
+}
+
+
+.navbar-2{
+    display: flex;
+    width: 1250px;
+    margin: auto;
+
+}
+
+.r-1{
+    background-color: rgb(74, 14, 214);
+    width: 100px;
+    height: 3px;
+}
+
+
+.my-resume-2{
+    width: 700px;
+    /* border:2px solid red; */
+
+
+}
+
+.r-2{
+    display: flex;
+    list-style: none;
+    
+   
+}
+
+.r-2 a{
+   text-decoration: none;
+   margin: auto 20px;
+   color:black;
+   padding: 6px 20px;
+   font-size: 1.5rem;
+   cursor: pointer;
+}
+
+
+.r-2 a:hover{
+    border-radius: 20px;
+    color: rgb(35, 21, 240);
+    background-color: white;
+    border: 2px solid rgb(197, 222, 233)
+ }
+
+
+ .v-big-1{
+     /* border: 2px solid black; */
+     /* margin: 6px 8px; */
+     display: flex;
+     width: 1000px;
+     margin: auto;
+     margin: 40px auto;
+ }
+
+ .v-b-1{
+     border-left: 7px solid blue;
+     border-radius: 10px;
+     margin: 4px 20px;
+     padding: 7px 9px;
+     box-shadow: 8px 8px 30px rgb(197, 222, 233);
+ }
+
+ .v-b-2{
+    border-left: 7px solid blue;
+     border-radius: 10px;
+     margin: 4px 20px;
+    padding: 7px 9px;
+    box-shadow: 8px 8px 30px rgb(197, 222, 233);
+}
+
+
+
+ .v-big-2{
+    /* border: 2px solid red; */
+    /* margin: 6px 8px; */
+    display: flex;
+    width: 1000px;
+    margin: 40px auto;
+}
+
+.v-b-3{
+    border-left: 7px solid blue;
+    border-radius: 10px;
+    margin: 4px 20px;
+    padding: 7px 9px;
+    box-shadow: 8px 8px 30px rgb(197, 222, 233);
+}
+
+.v-b-4{
+    border-left: 7px solid blue;
+    border-radius: 10px;
+    margin: 4px 20px;
+    padding: 7px 9px;
+    box-shadow: 8px 8px 30px rgb(197, 222, 233);
+}
+
+
+.contact-1{
+    position: absolute;
+    top: 4300px;
+    /* border: 2px solid black; */
+    width: 1500px;
+    background-color: rgb(225, 246, 255);
+}
+
+
+
+.contact-2{
+    display: flex;
+    width: 1300px; 
+    margin: auto;
+    
+
+}
+
+
+.appointment{
+    padding: 6px 12px;
+    width: 750px;
+    
+
+}
+
+.appointment h1,div{
+    margin-left: 62px;
+
+}
+
+
+.contact-info{
+    /* border: 2px solid blue; */
+    width: 750px;
+    padding: 6px 12px;
+}
+
+.contact-info h1,p{
+    margin-left: 22px;
+
+}
+
+.contact-info div{
+    margin-left: 22px;
+
+}
+
+
+.appointment input,
+ .appointment textarea{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    border-radius: 9px;
+    margin: 12px 18px;
+
+}
+
+.form-group{
+    width: 350px;
+    margin-left: 62px;
+
+}
+
+.appointment form{
+    width: 50%;
+}
+
+.form-gr input{
+    width: 100px;
+    background-color: rgb(87, 87, 223);
+    border: rgb(87, 87, 223);
+    cursor: pointer;
+    color: white;
+}
+
+
+
+
+
+footer {
+    font-family: 'Bree Serif', serif;
+    background-color: rgb(87, 87, 223);
+    color: white;
+    padding: 27px 17px;
+    height: 14px;
+    width: 1470px;
+    position: absolute;
+    top:4825px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
